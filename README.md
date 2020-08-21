@@ -21,4 +21,6 @@ Pictures and moving pictures (animations) can be used to succinctly and effectiv
 
 ** Main - EasyAnimator** This is the main method for the program.
 
+# Frameworks 
+
 All of these animations are built using Java Swing framework and awt. 
