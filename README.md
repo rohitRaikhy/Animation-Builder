@@ -11,6 +11,7 @@ Pictures and moving pictures (animations) can be used to succinctly and effectiv
 ![night](https://user-images.githubusercontent.com/35156624/90906142-2ea39880-e39f-11ea-9258-bbfec54dca47.gif)
 ![Uploading big-bang-big-crunch.gif…]()
 
+# Design 
 
 ** Design of Model ** In our model, we have IShape, ITransform, and IAnimatorV2 interfaces. The IShape interface focuses on requirements for each shape such as x, y, width, height, color, etc. The ITransformV2 interface deals with specific transformations done to the shape such as move, scale, and change color. Finally, the IAnimatorV2 interface takes care of the animator as a whole, keeping track of not only where shapes are on the canvas, but also the transformations that are set to take place. From the previous Assignment, we created a new interface that handled Transformations. We also redesigned our IAnimator to include these changes. These are present in IAnimatorV2.
 
